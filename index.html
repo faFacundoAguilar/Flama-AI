@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi contenido con IA</title>
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+
+
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-transparent">
+  <div class="absolute top-4 right-4 z-50">
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=flamalab7@gmail.com&su=Consulta&body=Escribe%20tu%20mensaje%20aquí" 
+       class="px-5 py-2 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-md shadow-lg transition duration-300">
+      ¡Contactar!
+    </a>
+  </div>
+  
+  
+  <section class="relative overflow-hidden py-20">
+
+        <div class="container">
+          <div class="mx-auto flex max-w-5xl flex-col items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" fill="none"
+              class="absolute hidden opacity-25 [mask-image:linear-gradient(to_right,white,transparent,transparent,white)] lg:block">
+              <g clip-path="url(#clip0_4_5)">
+                <rect width="1920" height="1080"></rect>
+                <line y1="49.5" x2="1920" y2="49.5" class="stroke-muted-foreground"></line>
+                <line y1="99.5" x2="1920" y2="99.5" class="stroke-muted-foreground"></line>
+                <line y1="149.5" x2="1920" y2="149.5" class="stroke-muted-foreground"></line>
+                <line y1="199.5" x2="1920" y2="199.5" class="stroke-muted-foreground"></line>
+                <line y1="249.5" x2="1920" y2="249.5" class="stroke-muted-foreground"></line>
+                <line y1="299.5" x2="1920" y2="299.5" class="stroke-muted-foreground"></line>
+                <line y1="349.5" x2="1920" y2="349.5" class="stroke-muted-foreground"></line>
+                <line y1="399.5" x2="1920" y2="399.5" class="stroke-muted-foreground"></line>
+                <line y1="449.5" x2="1920" y2="449.5" class="stroke-muted-foreground"></line>
+                <line y1="499.5" x2="1920" y2="499.5" class="stroke-muted-foreground"></line>
+                <line y1="549.5" x2="1920" y2="549.5" class="stroke-muted-foreground"></line>
+                <line y1="599.5" x2="1920" y2="599.5" class="stroke-muted-foreground"></line>
+                <line y1="649.5" x2="1920" y2="649.5" class="stroke-muted-foreground"></line>
+                <line y1="699.5" x2="1920" y2="699.5" class="stroke-muted-foreground"></line>
+                <line y1="749.5" x2="1920" y2="749.5" class="stroke-muted-foreground"></line>
+                <line y1="799.5" x2="1920" y2="799.5" class="stroke-muted-foreground"></line>
+                <line y1="849.5" x2="1920" y2="849.5" class="stroke-muted-foreground"></line>
+                <line y1="899.5" x2="1920" y2="899.5" class="stroke-muted-foreground"></line>
+                <line y1="949.5" x2="1920" y2="949.5" class="stroke-muted-foreground"></line>
+                <line y1="999.5" x2="1920" y2="999.5" class="stroke-muted-foreground"></line>
+                <line y1="1049.5" x2="1920" y2="1049.5" class="stroke-muted-foreground"></line>
+                <g clip-path="url(#clip1_4_5)">
+                  <line x1="49.6133" y1="3.99995" x2="49.7268" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="99.7275" y1="3.99995" x2="99.8411" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="149.841" y1="3.99995" x2="149.954" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="199.954" y1="3.99995" x2="200.068" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="250.067" y1="3.99995" x2="250.181" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="300.182" y1="3.99995" x2="300.295" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="350.295" y1="3.99995" x2="350.408" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="400.408" y1="3.99995" x2="400.522" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="450.521" y1="3.99995" x2="450.635" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="500.636" y1="3.99995" x2="500.749" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="550.749" y1="3.99995" x2="550.863" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="600.862" y1="3.99995" x2="600.976" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="650.976" y1="3.99995" x2="651.089" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="701.09" y1="3.99995" x2="701.203" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="751.203" y1="3.99995" x2="751.317" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="801.316" y1="3.99995" x2="801.43" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="851.43" y1="3.99995" x2="851.543" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="901.544" y1="3.99995" x2="901.657" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="951.657" y1="3.99995" x2="951.771" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="1001.77" y1="3.99995" x2="1001.88" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="1051.88" y1="3.99995" x2="1052" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="1102" y1="3.99995" x2="1102.11" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="1152.11" y1="3.99995" x2="1152.22" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="1202.22" y1="3.99995" x2="1202.34" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="1252.34" y1="3.99995" x2="1252.45" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="1302.45" y1="3.99995" x2="1302.57" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="1352.57" y1="3.99995" x2="1352.68" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="1402.68" y1="3.99995" x2="1402.79" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="1452.79" y1="3.99995" x2="1452.91" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="1502.91" y1="3.99995" x2="1503.02" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="1553.02" y1="3.99995" x2="1553.13" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="1603.13" y1="3.99995" x2="1603.25" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="1653.25" y1="3.99995" x2="1653.36" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="1703.36" y1="3.99995" x2="1703.47" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="1753.47" y1="3.99995" x2="1753.59" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="1803.59" y1="3.99995" x2="1803.7" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="1853.7" y1="3.99995" x2="1853.81" y2="1084" class="stroke-muted-foreground"></line>
+                  <line x1="1903.81" y1="3.99995" x2="1903.93" y2="1084" class="stroke-muted-foreground"></line>
+                </g>
+              </g>
+              <defs>
+                <clipPath id="clip0_4_5">
+                  <rect width="1920" height="1080" fill="#000000"></rect>
+                </clipPath>
+                <clipPath id="clip1_4_5">
+                  <rect width="1920" height="1080" fill="#000000" transform="tranzinc(-1 4)"></rect>
+                </clipPath>
+              </defs>
+            </svg>
+            <div class="z-10 mx-auto flex max-w-5xl flex-col items-center gap-6 text-center">
+              <div
+                class="inline-flex items-center rounded-full border-2 px-2.5 py-0.5 text-base font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground shadow-lg">
+                FLAMA AI<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-arrow-down-right ml-2 size-4">
+                  <path d="m7 7 10 10"></path>
+                  <path d="M17 7v10H7"></path>
+                </svg>
+              </div>
+              <div>
+                <h1 class="mb-6 text-4xl font-bold lg:text-7xl text-gray-950 bg-clip-text text-transparent bg-gradient-to-r from-gray-600 via-gray-800 to-gray-900 ">
+                  Impulsamos marcas con contenido visual creado por IA
+                </h1>
+                
+                <p class="text-black lg:text-xl text-justify px-4 leading-relaxed" style="word-spacing: 0.1em;">
+                  Desarrollo piezas visuales potenciadas por IA para agencias, empresas y creadores de contenido. Combino la inteligencia artificial con un enfoque creativo y de alto rendimiento para generar contenido visual que conecta con tu audiencia y potencia ventas.
+                  A continuación, podés descubrir ejemplos de alto rendimiento, colaboraciones y los servicios que ofrezco.
+              </p>
+              
+<!--Flechita scroll-->
+              <div class="absolute bottom-6 left-1/2 -translate-x-1/2">
+                <div class="animate-bounce text-muted-foreground">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </div>
+              </div>
+              
+                
+                
+              </div>
+            <!-- Botón con sombra más sutil -->
+            <div class="mt-4 flex justify-center">
+              <div class="relative group">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=flamalab7@gmail.com&su=Asunto&body=Escribe%20aqui%20tu%20mensaje" target="_blank" class="relative inline-block p-px font-semibold leading-6 text-white bg-gray-800 shadow-lg shadow-zinc-800 cursor-pointer rounded-xl transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95">
+                  <span
+                    class="absolute inset-0 rounded-xl bg-gradient-to-r from-teal-400 via-blue-500 to-purple-500 p-[2px] opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+                  ></span>
+            
+                  <span class="relative z-10 block px-6 py-3 rounded-xl bg-gray-950">
+                    <div class="relative z-10 flex items-center space-x-2">
+                      <span class="transition-all duration-500 group-hover:translate-x-1">
+                        Comienza ahora
+                      </span>
+                      <svg
+                        class="w-6 h-6 transition-transform duration-500 group-hover:translate-x-1"
+                        data-slot="icon"
+                        aria-hidden="true"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          clip-rule="evenodd"
+                          d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
+                          fill-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </div>
+                  </span>
+                </a>
+              </div>
+            </div>
+            
+
+              </div>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+               
+           
+       <!-- SERVICIOS -->
+<section id="servicios" class="py-12 bg-white">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="text-center mb-12">
+      <!-- Título de la sección -->
+      <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-10 tracking-tight uppercase relative inline-block after:content-[''] after:block after:w-16 after:h-1 after:bg-gradient-to-r after:from-purple-500 after:to-pink-500 after:mx-auto after:mt-3">
+        Mis Servicios
+      </h2>
+      
+      <!-- Contenedor del video 9:16, pequeño -->
+      <div class="relative w-full max-w-[240px] md:max-w-[270px] aspect-[9/16] mx-auto mb-8" id="video-container">
+        <video 
+          id="lazy-video" 
+          class="w-full h-full object-contain shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-xl"
+          autoplay
+          loop
+          muted
+          playsinline
+        >
+          <source src="img/monky.mp4" type="video/mp4">
+          Tu navegador no soporta el elemento de video.
+        </video>
+      </div>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <!-- Servicio 1 - -->
+      <div class="group relative bg-white border border-gray-100 p-8 rounded-3xl shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-2 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-purple-50 to-white opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+        <div class="relative z-10">
+          <div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-purple-500 to-pink-500 text-white rounded-full text-2xl mb-6 transition-transform group-hover:scale-110 duration-300">
+            <i class="fas fa-video"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800 mb-3 tracking-tight">Contenido visual que vende</h3>
+          <p class="text-black leading-relaxed mb-6">
+            Potenciá tu mensaje con contenido visual generado por IA que atrae miradas, fomenta la interacción y convierte visitas en ventas. Cada pieza está diseñada para resonar con tu audiencia y maximizar el rendimiento.
+          </p>
+        </div>
+      </div>
+
+      <!-- Servicio 2-->
+      <div class="group relative bg-white border border-gray-100 p-8 rounded-3xl shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-2 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-green-50 to-white opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+        <div class="relative z-10">
+          <div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-green-500 to-teal-500 text-white rounded-full text-2xl mb-6 transition-transform group-hover:scale-110 duration-300">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800 mb-3 tracking-tight">Sitios Web que Convierten</h3>
+          <p class="text-black leading-relaxed mb-6">
+            Diseños UI/UX modernos, funcionales y optimizados para una experiencia fluida en dispositivos móviles y web. Velocidad, estética y estrategia para convertir cada visitante en cliente
+          </p>
+          
+        </div>
+      </div>
+
+      <!-- Servicio 3 - Rediseñado (texto original preservado) -->
+      <div class="group relative bg-white border border-gray-100 p-8 rounded-3xl shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-2 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-amber-50 to-white opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+        <div class="relative z-10">
+          <div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-amber-500 to-orange-500 text-white rounded-full text-2xl mb-6 transition-transform group-hover:scale-110 duration-300">
+            <i class="fas fa-pen-nib"></i>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800 mb-3 tracking-tight">Palabras que Venden</h3>
+          <p class="text-black leading-relaxed mb-6">
+            Copywriting estratégico que convierte miradas en clics y clics en ventas. Storytelling, emoción y persuasión aplicados a tu marca, desde landings hasta campañas para redes.
+          </p>
+         
+        </div>
+      </div>
+
+
+      <!-- Última fila con los 2 contenedores centrados y responsivos -->
+<div class="col-span-full flex flex-col lg:flex-row justify-center gap-8">
+  <!-- Servicio 4 -->
+  <div class="w-full lg:w-full group relative bg-white border border-gray-100 p-8 rounded-3xl shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-2 overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-pink-50 to-white opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+    <div class="relative z-10">
+      <div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-pink-500 to-rose-500 text-white rounded-full text-2xl mb-6 transition-transform group-hover:scale-110 duration-300">
+        <i class="fas fa-bullhorn"></i>
+      </div>
+      <h3 class="text-xl font-bold text-gray-800 mb-3 tracking-tight">Alcance + Impacto</h3>
+      <p class="text-black leading-relaxed mb-6">
+        Estrategias digitales diseñadas para amplificar tu visibilidad, conectar con nuevos públicos y convertir audiencias en ventas reales.
+      </p>
+    </div>
+  </div>
+
+  <!-- Servicio 6 -->
+  <div class="w-full lg:w-full group relative bg-white border border-gray-100 p-8 rounded-3xl shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-2 overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-indigo-50 to-white opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+    <div class="relative z-10">
+      <div class="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-indigo-500 to-blue-500 text-white rounded-full text-2xl mb-6 transition-transform group-hover:scale-110 duration-300">
+        <i class="fas fa-film"></i>
+      </div>
+      <h3 class="text-xl font-bold text-gray-800 mb-3 tracking-tight">Estrategia Visual con IA</h3>
+      <p class="text-black leading-relaxed mb-6">
+        Te acompaño en la implementación de contenido con IA que se alinee con tus objetivos comerciales, elevando la calidad visual y el rendimiento de tu marca.
+      </p>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+
+
+
+<div class="flex flex-wrap justify-center gap-4 sm:gap-8 p-4">
+  <!-- Tarjeta 1 -->
+  <div class="bg-transparent rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden flex-1 max-w-[200px] sm:max-w-[250px] border border-white/10 backdrop-blur">
+    <div class="relative w-full pb-[177.78%] bg-black">
+      <video class="video-player absolute top-0 left-0 w-full h-full object-cover rounded-t-xl" muted playsinline preload="none" poster="https://via.placeholder.com/800x450?text=Preview+Video">
+        <source src="img/abu.mp4" type="video/mp4" />
+        Tu navegador no soporta videos HTML5.
+      </video>
+    </div>
+    <div class="p-4 text-center text-white">
+      <div class="flex justify-center gap-6 text-2xl">
+        <a href="#" class="text-pink-500 hover:scale-110 transition"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-black hover:text-[#69C9D0] hover:scale-110 transition"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tarjeta 2 -->
+  <div class="bg-transparent rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden flex-1 max-w-[200px] sm:max-w-[250px] border border-white/10 backdrop-blur">
+    <div class="relative w-full pb-[177.78%] bg-black">
+      <video class="video-player absolute top-0 left-0 w-full h-full object-cover rounded-t-xl" muted playsinline preload="none" poster="https://via.placeholder.com/800x450?text=Preview+Video">
+        <source src="img/cati.mp4" type="video/mp4" />
+        Tu navegador no soporta videos HTML5.
+      </video>
+    </div>
+    <div class="p-4 text-center text-white">
+      <div class="flex justify-center gap-6 text-2xl">
+        <a href="#" class="text-pink-500 hover:scale-110 transition"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-black hover:text-[#69C9D0] hover:scale-110 transition"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- Sección 4 mejorada -->
+<section class="text-gray-400 bg-transparent body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+
+    <!-- Video ajustado ligeramente más grande y sin recorte -->
+    <div class="lg:max-w-xl lg:w-full md:w-3/4 w-full mb-10 md:mb-0 flex justify-start">
+      <video 
+        class="w-full max-w-[740px] aspect-video rounded-xl object-contain" 
+        autoplay 
+        muted 
+        loop 
+        playsinline 
+        aria-label="Video informativo"
+      >
+        <source src="img/monky.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+      </video>
+    </div>
+    
+    <!-- Contenido -->
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium bg-clip-text text-transparent bg-gradient-to-r from-gray-600 via-gray-800 to-gray-900">
+        Conectá emociones con IA. Hacelo viral.
+      </h1>
+      
+        <p class="mb-8 leading-relaxed text-justify text-black px-4" style="word-spacing: 0.1em;">
+          Si quieres que tu marca deje de ser una más y empiece a destacarse, estás en el lugar indicado. Trabajo dia a dia con negocios y empresas de distintos sectores que están decididos a potenciar su visibilidad, destacar en el mercado y aumentar sus ventas. Nuestra mision es que logres mayor alcance y resultados concretos, lo que hacemos con IA es transformar tu marketing digital. Si llegaste hasta aquí, es porque sabes que algo grande está por venir. 
+          Copia el correo, y llevaremos tu negocio al siguiente nivel con contenido viral creado por IA. 
+      </p>
+      
+      <!-- Campo para copiar correo -->
+      <div class="flex w-full md:justify-start justify-center items-end">
+        <div class="relative mr-4 lg:w-full xl:w-1/2 w-2/4">
+          <label for="email-copy" class="leading-7 text-base text-gray-800">Correo de contacto</label>
+          <input 
+            type="text" 
+            id="email-copy" 
+            value="flamalab7@gmail.com" 
+            readonly 
+            class="w-full bg-gray-800 rounded border bg-opacity-40 border-gray-700 focus:ring-2 focus:ring-indigo-500 focus:bg-gray-700 focus:border-indigo-500 text-base outline-none text-pink-500 font-bold py-1 px-3 leading-8 transition-colors duration-200 ease-in-out cursor-pointer"
+          >
+        </div>
+        
+        <button 
+          onclick="copiarCorreo()" 
+          class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+        >
+          Copiar
+        </button>
+      </div>
+
+     <!-- Mensaje de copiado -->
+<p 
+id="copiado-msg" 
+class="flex items-center gap-2 text-sm text-white bg-green-600 font-semibold px-4 py-2 rounded mt-2 shadow-lg transition-opacity duration-300 opacity-0"
+>
+<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+</svg>
+¡Correo copiado al portapapeles!
+</p>
+
+<!-- Iconos debajo del placeholder -->
+<div class="flex space-x-4 mt-2">
+  <!-- Instagram -->
+  <a href="https://www.instagram.com/flama.ai/" target="_blank" rel="noopener noreferrer">
+    <lord-icon
+      src="https://cdn.lordicon.com/pwqdtrya.json"
+      trigger="hover"
+      style="width:50px;height:50px">
+    </lord-icon>
+  </a>
+
+  <!-- TIKTOK -->
+  <a href="https://www.tiktok.com/@flama.ai?_t=ZN-8viQcJqTmOE&_r=1" target="_blank" rel="noopener noreferrer">
+    <lord-icon
+      src="https://cdn.lordicon.com/porsvdok.json"
+      trigger="hover"
+      style="width:50px;height:50px">
+    </lord-icon>
+  </a>
+
+  <!-- Pinterest -->
+  <a href="https://es.pinterest.com/facuam25/_pins/" target="_blank" rel="noopener noreferrer">
+    <lord-icon
+      src="https://cdn.lordicon.com/bfapfumb.json"
+      trigger="hover"
+      style="width:50px;height:50px">
+    </lord-icon>
+  </a>
+</div>
+
+
+
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Sección de diseño inteligente -->
+<div class="flex items-center justify-center px-4 pt-12"> <!-- ← Cambié min-h-screen por pt-12 -->
+  <div class="flex items-center justify-center px-4">
+    <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl text-center lg:text-left lg:ml-18 lg:max-w-screen-lg">
+      <span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Diseño web </span> Inteligente.
+    </h1>
+  </div>
+
+  <!--UI/UX-->
+  <div class="group cursor-pointer group-hover:duration-500 overflow-hidden relative rounded-2xl shadow-inner shadow-gray-50 flex flex-col justify-around items-center w-40 h-80 bg-neutral-900 text-gray-50">
+    <div class="after:duration-500 before:duration-500 duration-500 group-hover:before:translate-x-11 group-hover:before:-translate-y-11 group-hover:after:translate-x-11 group-hover:after:translate-y-16 after:absolute after:w-12 after:h-12 after:bg-orange-400 after:rounded-full after:-z-10 after:blur-xl after:bottom-32 after:right-16 before:absolute before:w-12 before:h-12 before:bg-sky-400 before:rounded-full before:-z-10 before:blur-xl before:top-20 before:right-16 flex flex-col font-extrabold text-6xl z-10">
+      <span class="text-[55px] text-white/70">FLA</span>
+      <span class="text-[55px] text-white/70">MA</span>
+      <span class="text-[55px] self-center text-white/70">AI</span>
+    </div>
+    <div class="flex flex-row justify-center text-sm font-thin items-center gap-1">
+      <span>Desbloquear</span>
+      <svg class="w-4 h-4 stroke-current" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <path d="M33.9,46V29.9a16.1,16.1,0,0,1,32.2,0M50,62v8.1m-24.1,16H74.1a8,8,0,0,0,8-8V54a8,8,0,0,0-8-8H25.9a8,8,0,0,0-8,8V78.1A8,8,0,0,0,25.9,86.1Z" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" />
+      </svg>
+    </div>
+  </div>
+</div>
+
+<!-- Sección de diseño inteligente -->
+
+
+
+
+<!-- Testimonios -->
+<section>
+  <div class="container py-24">
+    <h2 class="text-center text-3xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-gray-800 via-black to-gray-900 sm:text-4xl drop-shadow-md">
+      Colaboraciones
+    </h2>
+    
+    <div class="mt-8 grid grid-cols-1 gap-6 md:grid-cols-3">
+      <!-- Tarjeta 1 -->
+      <a href="https://www.instagram.com/villacristinarg/" target="_blank" rel="noopener noreferrer" class="block">
+      <blockquote class="group relative rounded-2xl bg-gradient-to-br from-gray-900 via-gray-800 to-gray-950 p-[1.5px] shadow-lg transition-all duration-300 hover:scale-[1.02]">
+        <div class="rounded-2xl bg-white dark:bg-gray-950 p-6 sm:p-8 h-full">
+          <div class="flex items-center gap-4">
+            <img alt="Customer" src="img/E1.png" class="h-14 w-14 rounded-full object-cover" />
+            <div>
+              <p class="text-lg font-semibold text-gray-900 dark:text-white">Villa Cristina</p>
+              <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Sector Turismo</p>
+            </div>
+          </div>
+          <p class="mt-4 text-gray-700 dark:text-gray-300">
+            Desarrollo web | Contenido IA para redes sociales.
+          </p>
+        </div>
+      </blockquote>
+    </a>
+    
+      <!-- Tarjeta 2 -->
+      <a href="https://www.instagram.com/villacristinarg/" target="_blank" rel="noopener noreferrer" class="block">
+      <blockquote class="group relative rounded-2xl bg-gradient-to-br from-gray-900 via-gray-800 to-gray-950 p-[1.5px] shadow-lg transition-all duration-300 hover:scale-[1.02]">
+        <div class="rounded-2xl bg-white dark:bg-gray-950 p-6 sm:p-8 h-full">
+          <div class="flex items-center gap-4">
+            <img alt="Customer" src="img/R1.png" class="h-14 w-14 rounded-full object-cover" />
+            <div>
+              <p class="text-lg font-semibold text-gray-900 dark:text-white">La Rural</p>
+              <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Congresos y eventos</p>
+            </div>
+          </div>
+          <p class="mt-4 text-gray-700 dark:text-gray-300">
+            Desarrollo web | Contenido IA para redes sociales.
+          </p>
+        </div>
+      </blockquote>
+      </a>
+      
+      <!-- Tarjeta 3 -->
+      <a href="https://www.instagram.com/ladorada.miel/" target="_blank" rel="noopener noreferrer" class="block">
+      <blockquote class="group relative rounded-2xl bg-gradient-to-br from-gray-900 via-gray-800 to-gray-950 p-[1.5px] shadow-lg transition-all duration-300 hover:scale-[1.02]">
+        <div class="rounded-2xl bg-white dark:bg-gray-950 p-6 sm:p-8 h-full">
+          <div class="flex items-center gap-4">
+            <img alt="Customer" src="img/mieloso.png" class="h-14 w-14 rounded-full object-cover" />
+            <div>
+              <p class="text-lg font-semibold text-gray-900 dark:text-white">La Dorada</p>
+              <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">Agroalimentario</p>
+            </div>
+          </div>
+          <p class="mt-4 text-gray-700 dark:text-gray-300">
+            Contenido IA para redes sociales | Branding.
+        
+          </p>
+        </div>
+      </blockquote>
+      </a>
+      
+    </div>
+    
+    
+</section>
+ 
+
+<br><br><br><br>
+
+<!-- Footer -->
+ <footer class="bg-white lg:grid lg:grid-cols-5">
+  <div class="relative block h-48 sm:h-64 lg:col-span-2 lg:h-full">
+    <img
+      src="img/escena1.jpg"
+      alt=""
+      class="absolute inset-0 h-full w-full object-cover lg:translate-y-[-20%]"
+    />
+  </div>
+  
+  
+
+  <div class="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
+    <div class="grid grid-cols-1 gap-8 sm:grid-cols-2">
+      <div>
+        <p>
+          
+
+          <a href="#" class="block hover:opacity-75">
+            <img src="img/logito458.png" alt="FLAMA AI" class="w-64 h-auto max-w-full translate-y-[-80px]" />
+          </a>
+          
+        </p>
+
+     
+          <ul class="mt-8 flex gap-6">
+            <li>
+              <a
+                href="https://www.instagram.com/flama.ai/"
+                rel="noreferrer"
+                target="_blank"
+                class="text-gray-700 transition hover:opacity-75"
+              >
+                <span class="sr-only">Instagram</span>
+                <i class="fab fa-instagram text-gray-500 text-3xl"></i>
+              </a>
+            </li>
+          
+            <li>
+              <a
+                href="https://www.tiktok.com/@flama.ai?_t=ZN-8viQcJqTmOE&_r=1"
+                rel="noreferrer"
+                target="_blank"
+                class="text-gray-700 transition hover:opacity-75"
+              >
+                <span class="sr-only">TikTok</span>
+                <i class="fab fa-tiktok text-gray-500 text-3xl"></i>
+              </a>
+            </li>
+          
+            <li>
+              <a
+                href="https://es.pinterest.com/facuam25/_pins/"
+                rel="noreferrer"
+                target="_blank"
+                class="text-gray-700 transition hover:opacity-75"
+              >
+                <span class="sr-only">Pinterest</span>
+                <i class="fab fa-pinterest text-gray-500 text-3xl"></i>
+              </a>
+            </li>
+          </ul>
+          
+        </ul>
+      </div>
+
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+        <div>
+          <p class="font-semibold text-3xl text-indigo-600 uppercase tracking-wide mb-4 relative">
+            Servicios
+            <span class="absolute bottom-0 left-0 w-full h-1 bg-indigo-600 transform scale-x-0 transition-all duration-500 ease-out group-hover:scale-x-100"></span>
+          </p>
+          
+
+          <ul class="mt-6 space-y-4 text-sm">
+            <li>
+              <a href="#" class="text-gray-700 transition hover:opacity-75"> Producción de Video e Imagen con IA </a>
+            </li>
+
+            <li>
+              <a href="#" class="text-gray-700 transition hover:opacity-75"> Contenido de IA para Redes Sociales </a>
+            </li>
+
+            <li>
+              <a href="#" class="text-gray-700 transition hover:opacity-75"> Diseño Web UI/UX </a>
+            </li>
+
+            <li>
+              <a href="#" class="text-gray-700 transition hover:opacity-75"> Optimización SEO </a>
+            </li>
+
+            <li>
+              <a href="#" class="text-gray-700 transition hover:opacity-75"> 1 on 1 Coaching</a>
+            </li>
+
+          </ul>
+        </div>
+
+       
+      </div>
+    </div>
+
+    <div class="mt-12 border-t border-pink-500 pt-12">
+      <div class="sm:flex sm:items-center sm:justify-between">
+        <ul class="flex flex-wrap gap-4 text-xs">
+          <li>
+            <a href="#" class="text-gray-500 transition hover:opacity-75"> Social media </a>
+          </li>
+
+          <li>
+            <a href="#" class="text-gray-500 transition hover:opacity-75"> Diseño web </a>
+          </li>
+
+          <li>
+            <a href="#" class="text-gray-500 transition hover:opacity-75"> Branding </a>
+          </li>
+        </ul>
+
+        <p class="mt-8 text-xs text-gray-500 sm:mt-0">
+          &copy; 2025. Flama AI. Los derechos son reservados.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+     
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const video = document.getElementById('lazy-video');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          video.play();
+        } else {
+          video.pause();
+        }
+      });
+    }, {
+      threshold: 0.5 
+    });
+
+    observer.observe(video);
+  });
+
+</script>
+
+<script>
+  function copiarCorreo() {
+    const input = document.getElementById("email-copy");
+    input.select();
+    input.setSelectionRange(0, 99999); // Para móviles
+    document.execCommand("copy");
+
+    const msg = document.getElementById("copiado-msg");
+    msg.classList.remove("opacity-0");
+    msg.classList.add("opacity-100");
+
+    setTimeout(() => {
+      msg.classList.add("opacity-0");
+      msg.classList.remove("opacity-100");
+    }, 2500);
+  }
+</script>
+<!-- JavaScript to make the carousel work -->
+
+<script>
+  const prevBtn = document.getElementById("prev");
+  const nextBtn = document.getElementById("next");
+  const carouselItems = document.getElementById("carousel-items");
+  let currentIndex = 0;
+  const itemsCount = carouselItems.children.length;
+
+  function updateCarousel() {
+    carouselItems.style.transform = `translateX(-${currentIndex * 100}%)`;
+  }
+
+  prevBtn.addEventListener("click", () => {
+    currentIndex = (currentIndex === 0) ? itemsCount - 1 : currentIndex - 1;
+    updateCarousel();
+  });
+
+  nextBtn.addEventListener("click", () => {
+    currentIndex = (currentIndex === itemsCount - 1) ? 0 : currentIndex + 1;
+    updateCarousel();
+  });
+</script>
+
+<!-- Intersection para autoplay -->
+<script>
+  const videos = document.querySelectorAll(".video-player");
+
+  const observer = new IntersectionObserver(
+    entries => {
+      entries.forEach(entry => {
+        const video = entry.target;
+        if (entry.isIntersecting) {
+          video.play();
+        } else {
+          video.pause();
+        }
+      });
+    },
+    { threshold: 0.6 }
+  );
+
+  videos.forEach(video => {
+    observer.observe(video);
+  });
+</script>
+
+
+
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+   
+
+   
+</body>
+
+</html>
